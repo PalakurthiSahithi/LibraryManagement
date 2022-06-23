@@ -1,4 +1,4 @@
-﻿using System.Web;
+using System.Web;
 using System.Web.Mvc;
 
 namespace LibraryManagement
@@ -7,7 +7,7 @@ namespace LibraryManagement
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            #filters.Add(new HandleErrorAttribute());
         }
     }
 }
